@@ -1,11 +1,15 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 #pragma once
-
+#include "AbilitySystemComponent.h"
+#include "AbilitySystemInterface.h"
+#include "MyAttributeSet.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "Logging/LogMacros.h"
 #include "SecondProjectCharacter.generated.h"
+
+
 
 class USpringArmComponent;
 class UCameraComponent;
@@ -16,7 +20,7 @@ struct FInputActionValue;
 DECLARE_LOG_CATEGORY_EXTERN(LogTemplateCharacter, Log, All);
 
 UCLASS(config=Game)
-class ASecondProjectCharacter : public ACharacter
+class ASecondProjectCharacter : public ACharacter, public IAbilitySystemInterface
 {
 	GENERATED_BODY()
 
@@ -47,6 +51,14 @@ class ASecondProjectCharacter : public ACharacter
 public:
 	ASecondProjectCharacter();
 	
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Abilities")
+	UAbilitySystemComponent* AbilitySystemComponent;
+
+	virtual UAbilitySystemComponent* GetAbilitySystemComponent() const override;
+	// Attribute Set
+	UPROPERTY()
+	UMyAttributeSet* AttributeSet;
+
 
 protected:
 
