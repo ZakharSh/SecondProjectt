@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\epic games\\UnrealProjects\\SecondProject\\Source\\SecondProject\\SecondProject.Build.cs",
+		"D:\\epic games\\UnrealProjects\\SecondProject\\Source\\SecondProject.Target.cs",
+		"D:\\epic games\\UnrealProjects\\SecondProject\\Source\\SecondProjectEditor.Target.cs"
+	],
+	"EngineVersion": "5.3.2"
+}

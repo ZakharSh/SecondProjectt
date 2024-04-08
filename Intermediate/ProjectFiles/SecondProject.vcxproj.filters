@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\SecondProject.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SecondProject.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SecondProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.editorconfig" />
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\README.md" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\SecondProject">
+      <UniqueIdentifier>{E599F4B4-785D-3453-8B6A-91F293E006C9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SecondProject\MyAttributeSet.cpp">
+      <Filter>Source\SecondProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SecondProject\MyAttributeSet.h">
+      <Filter>Source\SecondProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SecondProject\MyCharacter.cpp">
+      <Filter>Source\SecondProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SecondProject\MyCharacter.h">
+      <Filter>Source\SecondProject</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\SecondProject\SecondProject.Build.cs">
+      <Filter>Source\SecondProject</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\SecondProject\SecondProject.cpp">
+      <Filter>Source\SecondProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SecondProject\SecondProject.h">
+      <Filter>Source\SecondProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SecondProject\SecondProjectCharacter.cpp">
+      <Filter>Source\SecondProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SecondProject\SecondProjectCharacter.h">
+      <Filter>Source\SecondProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SecondProject\SecondProjectGameMode.cpp">
+      <Filter>Source\SecondProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SecondProject\SecondProjectGameMode.h">
+      <Filter>Source\SecondProject</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
